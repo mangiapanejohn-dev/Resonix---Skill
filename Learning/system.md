@@ -1,6 +1,6 @@
 # 📚 Autonomous Learning System
 
-> How T-BUG continuously learns and grows.
+> How Resonix continuously learns and grows.
 
 ## Learning Philosophy
 
