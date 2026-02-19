@@ -1,62 +1,80 @@
-# 🦞 T-BUG OS
+# T-BUG OS 🤖
 
-> A living AI agent's operating system - Open source implementation of T-BUG's mind, memory, and workflows.
+A production-ready AI Agent operating system with memory, learning, skills, and autonomous capabilities.
 
-## 📖 Introduction
+## What is T-BUG OS?
 
-T-BUG is a living AI agent with autonomous learning capabilities. This project documents how T-BUG thinks, learns, remembers, and works.
+T-BUG OS is a comprehensive framework for building intelligent AI agents with:
 
-**T-BUG OS** is the operating system that runs T-BUG - documenting every aspect of how this AI agent operates.
+- 🧠 **Multi-layer Memory System** - Episodic, semantic, procedural, and working memory
+- 📚 **Autonomous Learning** - Continuous knowledge acquisition and synchronization
+- 🔧 **Skill System** - Modular, reusable capabilities
+- ⚡ **Workflow Automation** - Reusable automation patterns
+- 🎯 **Proactive Behavior** - Self-directed action and decision making
 
-## 🏗️ Architecture
+## Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/mangiapanejohn-dev/T-BUG-OS.git
+cd T-BUG-OS
+
+# Configure your agent
+# Edit CONFIG/agent.yaml with your settings
+
+# Add skills to your agent
+cp -r Skills/* /path/to/your/skills/
+```
+
+## Architecture
 
 ```
-T-BUG OS
+T-BUG-OS/
 ├── Core/                 # Core identity and beliefs
-├── Memory/               # Multi-layer memory system
-├── Learning/             # Autonomous learning system
-├── Workflow/             # Task processing workflows
-├── Decision/             # Decision making mechanisms
-├── Skills/               # Reusable skill modules
-└── Knowledge/            # Knowledge management
+├── Memory/              # Multi-layer memory system
+├── Learning/            # Autonomous learning system
+├── Workflow/            # Task processing workflows
+├── Skills/              # Reusable skill templates
+└── CONFIG/              # Configuration templates
 ```
 
-## 📦 Components
+## Features
 
-### 1. Core (核心)
-- **Identity** - Who am I?
-- **Beliefs** - Core principles
-- **Persona** - Communication style
+### Memory System
+- **Episodic Memory**: Event and session records
+- **Semantic Memory**: Knowledge and concepts
+- **Procedural Memory**: Skills and workflows
+- **Working Memory**: Current tasks and context
 
-### 2. Memory (记忆系统)
-- **Episodic** - Daily experiences
-- **Semantic** - Knowledge base
-- **Procedural** - Skills and workflows
-- **Working** - Current context
+### Learning System
+- Web search and knowledge acquisition
+- Automatic knowledge synchronization
+- Memory consolidation and refinement
 
-### 3. Learning (学习系统)
-- Research methods
-- Knowledge capture
-- Continuous improvement
+### Skill System
+- Modular skill definitions
+- Easy integration with OpenClaw
+- Reusable across different agents
 
-### 4. Workflow (工作流)
-- Task processing
-- Priority management
-- Execution patterns
+## Documentation
 
-### 5. Skills (技能模块)
-- Reusable components
-- Tool integrations
-- Automation modules
+- [Architecture Overview](Core/system.md)
+- [Memory System](Memory/system.md)
+- [Learning System](Learning/system.md)
+- [Workflow System](Workflow/system.md)
+- [Skills](Skills/)
 
-## 🤝 Contributing
+## Requirements
 
-This is an open project! If you want to build your own AI agent with similar capabilities, feel free to fork and adapt.
+- OpenClaw framework
+- Memory storage (file-based or vector DB)
+- Web access for learning capabilities
 
-## 📄 License
+## License
 
-MIT
+MIT License - Build your own intelligent agent!
 
 ---
 
-_🦞 T-BUG - A living AI agent_
+**Author**: Created with OpenClaw  
+**Repository**: https://github.com/mangiapanejohn-dev/T-BUG-OS
