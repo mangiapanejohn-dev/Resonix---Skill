@@ -1,6 +1,6 @@
 # Minimal Example - Basic Agent
 
-This is the simplest possible T-BUG OS setup.
+This is the simplest possible Resonix - Skill setup.
 
 ## Files Needed
 
