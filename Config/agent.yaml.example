@@ -1,0 +1,94 @@
+# Agent Configuration Example
+# Copy this to CONFIG/agent.yaml and customize
+
+# ============================================
+# Basic Agent Info
+# ============================================
+agent:
+  name: "My Agent"
+  description: "Your agent description"
+  timezone: "Asia/Shanghai"
+  language: "en"
+
+# ============================================
+# Memory System
+# ============================================
+memory:
+  enabled: true
+  
+  # Storage locations
+  storage:
+    episodic: "./memory"           # Daily logs: memory/YYYY-MM-DD.md
+    semantic: "./semantic"       # Knowledge base
+    working: "./HEARTBEAT.md"    # Current tasks
+    meta: "./MEMORY.md"           # Long-term memory
+    index: "./MEMORY_INDEX.md"   # Memory catalog
+  
+  # Retrieval settings
+  retrieval:
+    importance_threshold: 5
+    time_decay: 0.9
+    max_results: 10
+  
+  # Cleanup
+  cleanup:
+    auto_consolidate: true
+    consolidate_interval: 86400  # 24 hours
+
+# ============================================
+# Learning System
+# ============================================
+learning:
+  enabled: true
+  
+  # Learning modes
+  modes:
+    passive: true    # From user interactions
+    active: true    # Self-initiated
+    scheduled: false
+  
+  # Sources
+  sources:
+    web_search: true
+    browsing: true
+    apis: false
+  
+  # Limits
+  limits:
+    max_daily: 20
+    min_importance: 5
+
+# ============================================
+# Skills System
+# ============================================
+skills:
+  enabled: true
+  
+  paths:
+    - "./Skills"
+    - "~/.openclaw/skills"
+  
+  auto_discover: true
+  lazy_load: true
+
+# ============================================
+# Workflows
+# ============================================
+workflows:
+  heartbeat:
+    enabled: true
+    interval: 1800  # 30 minutes
+  
+  cron:
+    enabled: false
+
+# ============================================
+# Safety
+# ============================================
+safety:
+  confirm_external: true
+  confirm_delete: true
+  
+  filters:
+    block_list: []
+    allow_list: ["*"]

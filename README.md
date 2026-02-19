@@ -1,15 +1,18 @@
 # T-BUG OS 🤖
 
-A production-ready AI Agent operating system with memory, learning, skills, and autonomous capabilities.
+> A production-ready AI Agent operating system with memory, learning, skills, and autonomous capabilities.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/mangiapanejohn-dev/T-BUG-OS)](https://github.com/mangiapanejohn-dev/T-BUG-OS/stargazers)
 
 ## What is T-BUG OS?
 
 T-BUG OS is a comprehensive framework for building intelligent AI agents with:
 
 - 🧠 **Multi-layer Memory System** - Episodic, semantic, procedural, and working memory
-- 📚 **Autonomous Learning** - Continuous knowledge acquisition and synchronization
+- 📚 **Autonomous Learning** - Continuous knowledge acquisition and synchronization  
 - 🔧 **Skill System** - Modular, reusable capabilities
-- ⚡ **Workflow Automation** - Reusable automation patterns
+- ⚡ **Workflow Automation** - Heartbeat and cron-based automation
 - 🎯 **Proactive Behavior** - Self-directed action and decision making
 
 ## Quick Start
@@ -19,56 +22,91 @@ T-BUG OS is a comprehensive framework for building intelligent AI agents with:
 git clone https://github.com/mangiapanejohn-dev/T-BUG-OS.git
 cd T-BUG-OS
 
-# Configure your agent
-# Edit CONFIG/agent.yaml with your settings
-
-# Add skills to your agent
-cp -r Skills/* /path/to/your/skills/
+# See QUICKSTART.md for detailed setup
+cat QUICKSTART.md
 ```
 
 ## Architecture
 
 ```
 T-BUG-OS/
-├── Core/                 # Core identity and beliefs
-├── Memory/              # Multi-layer memory system
-├── Learning/            # Autonomous learning system
-├── Workflow/            # Task processing workflows
-├── Skills/              # Reusable skill templates
-└── CONFIG/              # Configuration templates
+├── Core/                 # Core systems (memory, learning, skills)
+├── Config/               # Configuration templates
+├── Examples/             # Minimal and full examples
+├── Memory/               # Memory system docs
+├── Learning/            # Learning system docs
+├── Skills/              # Skill templates
+├── Workflow/            # Workflow patterns
+└── QUICKSTART.md        # 5-minute setup guide
 ```
 
 ## Features
 
 ### Memory System
-- **Episodic Memory**: Event and session records
-- **Semantic Memory**: Knowledge and concepts
-- **Procedural Memory**: Skills and workflows
-- **Working Memory**: Current tasks and context
+
+| Type | Storage | Purpose |
+|------|---------|---------|
+| Episodic | `memory/YYYY-MM-DD.md` | Event/session records |
+| Semantic | `./semantic/` | Knowledge and concepts |
+| Procedural | `Skills/` | Skills and workflows |
+| Working | `HEARTBEAT.md` | Current tasks |
+| Meta | `MEMORY.md` | Long-term highlights |
 
 ### Learning System
-- Web search and knowledge acquisition
-- Automatic knowledge synchronization
-- Memory consolidation and refinement
+
+- **Passive Learning** - From user interactions
+- **Active Learning** - Self-initiated discovery  
+- **Scheduled Learning** - Cron-based acquisition
+- **Sources** - Web search, browsing, APIs, documents
 
 ### Skill System
+
 - Modular skill definitions
-- Easy integration with OpenClaw
-- Reusable across different agents
+- Auto-discovery
+- Lazy loading
+- OpenClaw integration
+
+### Workflows
+
+- **Heartbeat** - Periodic background checks during active sessions
+- **Cron Jobs** - Scheduled tasks
+- **Event Triggers** - Condition-based execution
 
 ## Documentation
 
-- [Architecture Overview](Core/system.md)
-- [Memory System](Memory/system.md)
-- [Learning System](Learning/system.md)
-- [Workflow System](Workflow/system.md)
-- [Skills](Skills/)
+| Doc | Description |
+|-----|-------------|
+| [QUICKSTART.md](QUICKSTART.md) | 5-minute setup guide |
+| [Core/memory.md](Core/memory.md) | Memory system deep dive |
+| [Core/learning.md](Core/learning.md) | Learning system configuration |
+| [Examples/](Examples/) | Minimal and full examples |
 
 ## Requirements
 
 - OpenClaw framework
-- Memory storage (file-based or vector DB)
-- Web access for learning capabilities
+- Node.js 18+
+- Memory storage (filesystem or vector DB)
+- Web access (for learning)
+
+## Examples
+
+### Minimal Setup (Testing)
+
+```bash
+cd Examples/minimal
+# Just 2 files: CONFIG/agent.yaml + HEARTBEAT.md
+```
+
+### Full Setup (Production)
+
+```bash
+cd Examples/full
+# Complete setup with all features
+```
+
+## Contributing
+
+Contributions welcome! Please read the docs first.
 
 ## License
 
@@ -76,5 +114,4 @@ MIT License - Build your own intelligent agent!
 
 ---
 
-**Author**: Created with OpenClaw  
 **Repository**: https://github.com/mangiapanejohn-dev/T-BUG-OS
