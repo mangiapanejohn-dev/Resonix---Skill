@@ -1,13 +1,13 @@
-# T-BUG OS 🤖
+# Resonix - Skill 🤖
 
 > A production-ready AI Agent operating system with memory, learning, skills, and autonomous capabilities.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/mangiapanejohn-dev/T-BUG-OS)](https://github.com/mangiapanejohn-dev/T-BUG-OS/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/mangiapanejohn-dev/Resonix - Skill)](https://github.com/mangiapanejohn-dev/Resonix - Skill/stargazers)
 
-## What is T-BUG OS?
+## What is Resonix - Skill?
 
-T-BUG OS is a comprehensive framework for building intelligent AI agents with:
+Resonix - Skill is a comprehensive framework for building intelligent AI agents with:
 
 - 🧠 **Multi-layer Memory System** - Episodic, semantic, procedural, and working memory
 - 📚 **Autonomous Learning** - Continuous knowledge acquisition and synchronization  
@@ -19,8 +19,8 @@ T-BUG OS is a comprehensive framework for building intelligent AI agents with:
 
 ```bash
 # Clone the repository
-git clone https://github.com/mangiapanejohn-dev/T-BUG-OS.git
-cd T-BUG-OS
+git clone https://github.com/mangiapanejohn-dev/Resonix - Skill.git
+cd Resonix - Skill
 
 # See QUICKSTART.md for detailed setup
 cat QUICKSTART.md
@@ -29,7 +29,7 @@ cat QUICKSTART.md
 ## Architecture
 
 ```
-T-BUG-OS/
+Resonix - Skill/
 ├── Core/                 # Core systems (memory, learning, skills)
 ├── Config/               # Configuration templates
 ├── Examples/             # Minimal and full examples
@@ -114,4 +114,4 @@ MIT License - Build your own intelligent agent!
 
 ---
 
-**Repository**: https://github.com/mangiapanejohn-dev/T-BUG-OS
+**Repository**: https://github.com/mangiapanejohn-dev/Resonix - Skill
