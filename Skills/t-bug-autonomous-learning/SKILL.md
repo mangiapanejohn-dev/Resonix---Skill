@@ -1,4 +1,4 @@
-# T-BUG Autonomous Learning
+# Resonix  Autonomous Learning
 
 An autonomous learning system for AI agents - learn continuously, capture insights, grow every day.
 
