@@ -1,6 +1,6 @@
 # ⚙️ Workflow System
 
-> How T-BUG processes tasks and gets things done.
+> How Resonix  processes tasks and gets things done.
 
 ## Task Processing Flow
 
