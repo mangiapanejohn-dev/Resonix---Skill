@@ -1,6 +1,6 @@
-# T-BUG OS - Quick Start Guide
+# Resonix - Skill - Quick Start Guide
 
-This guide will help you get started with T-BUG OS in 5 minutes.
+This guide will help you get started with Resonix - Skill in 5 minutes.
 
 ## Prerequisites
 
@@ -12,8 +12,8 @@ This guide will help you get started with T-BUG OS in 5 minutes.
 ## Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/mangiapanejohn-dev/T-BUG-OS.git
-cd T-BUG-OS
+git clone https://github.com/mangiapanejohn-dev/Resonix - Skill.git
+cd Resonix - Skill
 ```
 
 ## Step 2: Configure Your Agent
